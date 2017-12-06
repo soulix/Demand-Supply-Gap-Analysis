@@ -24,20 +24,3 @@ Driver id: The unique identification number of the driver
 Status of the request: The final status of the trip, that can be either completed, cancelled by the driver or no cars available
  
 Note: For this assignment, only the trips to and from the airport are being considered.
- 
-Data Cleaning and Preparation - Hints
-Identify the data quality issues and clean the data so that you can use it for analysis.
-Ensure that the dates and time are in the proper format. Derive new variables which will be useful for analysis.
- 
-Results Expected
-Visually identify the most pressing problems for Uber. 
-Hint: Create plots to visualise the frequency of requests that get cancelled or show 'no cars available'; identify the most problematic types of requests (city to airport / airport to city etc.) and the time slots (early mornings, late evenings etc.) using plots
-Find out the gap between supply and demand and show the same using plots.
-Find the time slots when the highest gap exists
-Find the types of requests (city-airport or airport-city) for which the gap is the most severe in the identified time slots
-What do you think is the reason for this issue for the supply-demand gap? Write the answer in less than 100 words. You may accompany the write-up with plot(s).
- Recommend some ways to resolve the supply-demand gap.
- 
-Present the problem, the analyses and the recommendations using plots to the Chief Data Scientist in a well-formatted presentation (make sure to submit a PDF version of the PPT). Also, include a commented R file in your submission. Please note that the assignment has to be done completely in R. However, you may prepare the plots in Tableau to include in the presentation.
- 
-Please refer to the rubric provided on the next page to get a clear idea of what parameters will you be evaluated on.
